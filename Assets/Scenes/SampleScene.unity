@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 257292842}
   - component: {fileID: 257292841}
   - component: {fileID: 257292840}
+  - component: {fileID: 257292847}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -406,6 +407,8 @@ MonoBehaviour:
   speed: 500
   scoreText: {fileID: 401602276}
   winText: {fileID: 1857525629}
+  velocityText: {fileID: 1186508248}
+  positionText: {fileID: 885140111}
 --- !u!54 &257292841
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -549,6 +552,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &257292847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257292839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5963b277d89834796332f9897224e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceText: {fileID: 101217559}
 --- !u!4 &276844998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3914899308051306359, guid: bd7e8455a3296804e962995436f9bdc5, type: 3}
